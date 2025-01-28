@@ -31,6 +31,7 @@ The dataset was collected and annotated by board-certified radiologists at the B
 
 ---
 
+![Screenshot](NLP_process.png)
 ## Baseline Models and Results  
 
 The dataset was evaluated using multiple machine learning (ML), deep learning (DL), and large language models (LLMs) for BI-RADS category classification. Baseline results are provided as benchmarks for future studies.  
@@ -40,8 +41,8 @@ The dataset was evaluated using multiple machine learning (ML), deep learning (D
 |---------------------------|------------------|----------------------------------|  
 | BioGPT                    | 0.60            | (0.391–0.812)                     |  
 | BERT                      | 0.54            | (0.477–0.607)                     |  
-| Long Short-Term Memory (LSTM) | *Varies*   | *Details in paper*                 |  
-| Support Vector Machine (SVM) | *Varies*    | *Details in paper*                 |  
+| LSTM                      | 0.53            | (0.455-0.619)                     |  
+
 
 - **Best Model:** BioGPT, which performed 6% better than BERT in sensitivity.  
 - **Embedding Techniques:** TF-IDF, Word2Vec for semantic and syntactic analysis.  
