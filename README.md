@@ -32,6 +32,8 @@ The dataset was collected and annotated by board-certified radiologists at the B
 ---
 
 ![Screenshot](NLP_process.png)
+Fig: NLP Workflow for Preprocessing Reports and BI-RADS Classification.
+
 ## Baseline Models and Results  
 
 The dataset was evaluated using multiple machine learning (ML), deep learning (DL), and large language models (LLMs) for BI-RADS category classification. Baseline results are provided as benchmarks for future studies.  
